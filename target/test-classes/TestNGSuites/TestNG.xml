@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Bond Brand Suite" annotations="JDK">
+
+	<listeners>
+		<listener class-name="com.listener.TestListener" />
+	</listeners>	
+    
+    <test name="RunTests_On_Chrome_Windows">
+       <classes>
+			<class name="com.testsuite.BondBrandLoyaltyTestSuite"/>
+       </classes> 
+    </test>
+    
+</suite>

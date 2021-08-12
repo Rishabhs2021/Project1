@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Bond Brand Suite]">
+  <listeners>
+    <listener class-name="com.listener.TestListener"/>
+  </listeners>
+  <test name="RunTests_On_Chrome_Windows(failed)">
+    <classes>
+      <class name="com.testsuite.BondBrandLoyaltyTestSuite">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="CloseBrowser"/>
+          <include name="initializeBaseSetup"/>
+          <include name="testLabelNameInCartPage"/>
+        </methods>
+      </class> <!-- com.testsuite.BondBrandLoyaltyTestSuite -->
+    </classes>
+  </test> <!-- RunTests_On_Chrome_Windows(failed) -->
+</suite> <!-- Failed suite [Bond Brand Suite] -->

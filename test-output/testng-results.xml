@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41075" started-at="2021-08-12T10:37:27Z" finished-at="2021-08-12T10:38:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41075" started-at="2021-08-12T10:37:27Z" finished-at="2021-08-12T10:38:08Z">
+      <class name="com.testsuite.BondBrandLoyaltyTestSuite">
+        <test-method status="PASS" signature="initializeBaseSetup(org.testng.ITestContext)[pri:0, instance:com.testsuite.BondBrandLoyaltyTestSuite@7207cb51]" name="initializeBaseSetup" is-config="true" duration-ms="5722" started-at="2021-08-12T16:07:27Z" finished-at="2021-08-12T16:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6029f2a4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testsuite.BondBrandLoyaltyTestSuite@7207cb51]" name="setUp" is-config="true" duration-ms="14513" started-at="2021-08-12T16:07:33Z" finished-at="2021-08-12T16:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCalculationsInCartPage()[pri:0, instance:com.testsuite.BondBrandLoyaltyTestSuite@7207cb51]" name="testCalculationsInCartPage" duration-ms="20611" started-at="2021-08-12T16:07:48Z" finished-at="2021-08-12T16:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculationsInCartPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testsuite.BondBrandLoyaltyTestSuite@7207cb51]" name="tearDown" is-config="true" duration-ms="4" started-at="2021-08-12T16:08:08Z" finished-at="2021-08-12T16:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.testsuite.BondBrandLoyaltyTestSuite@7207cb51]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2021-08-12T16:08:08Z" finished-at="2021-08-12T16:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.testsuite.BondBrandLoyaltyTestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

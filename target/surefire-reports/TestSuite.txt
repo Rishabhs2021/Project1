@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 244.939 s <<< FAILURE! - in TestSuite
+testLabelNameInCartPage(com.testsuite.BondBrandLoyaltyTestSuite)  Time elapsed: 11.594 s  <<< FAILURE!
+java.lang.AssertionError: In Cart Page, Actual Label 'Total products' is not equal to expected label 'Total Products Price' expected [Total Products Price] but found [Total products]
+	at com.testsuite.BondBrandLoyaltyTestSuite.testLabelNameInCartPage(BondBrandLoyaltyTestSuite.java:106)
+
